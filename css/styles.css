@@ -14,14 +14,15 @@
 html,
 body {
 	font-family: 'Miso', Arial, sans-serif;
+	background: #fdde7e;
 }
 h3, p {
 	margin: 0;
 }
 .container {
 	display: flex;
-	width: 1200px;	
-	height: 600px;
+	width: 100%;	
+	height: 100%;
 	justify-content: space-around;
 	align-items: center;
 	background: #fdde7e;
@@ -31,10 +32,10 @@ h3, p {
 
 .container__item {
 	width: 360px;
-	height: 440px;
-	padding: 30px;
-	box-shadow: 0 2px 1px rgba(0, 0, 0, .3);
-	border-radius: 3px;
+	height: 500px;
+	padding: 40px 80px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+	border-radius: 5px;
 	color:  #333;
 	background: #fff;
 	display: flex;
@@ -49,12 +50,13 @@ h3, p {
 }
 
 .container__item--gold {
-	height: 500px;
+	height: 600px;
+	padding: 60px 80px;
 }
 
 .item__price--gold,
 .item__img--gold {
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 
 .item__price {
